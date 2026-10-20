@@ -1,0 +1,33 @@
+{
+  "name": "pi-context-breakdown",
+  "version": "0.1.0",
+  "description": "pi /context command: print what the current context window is made of — system prompt, tool declarations, MCP servers, messages, free space",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "context",
+    "tokens",
+    "context-window"
+  ],
+  "license": "MIT",
+  "author": "ymy88",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymy88/pi-context-breakdown.git"
+  },
+  "homepage": "https://github.com/ymy88/pi-context-breakdown#readme",
+  "bugs": {
+    "url": "https://github.com/ymy88/pi-context-breakdown/issues"
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
