@@ -1,11 +1,13 @@
 {
   "name": "pi-context-breakdown",
   "version": "0.1.0",
-  "description": "pi /context command: print what the current context window is made of — system prompt, tool declarations, MCP servers, messages, free space",
+  "description": "pi /context command: print what the current context window is made of \u2014 system prompt, tool declarations, MCP servers, messages, free space",
   "keywords": [
     "pi-package",
     "pi",
+    "pi-coding-agent",
     "pi-extension",
+    "extension",
     "context",
     "tokens",
     "context-window"
@@ -29,5 +31,9 @@
     "extensions": [
       "./index.ts"
     ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
   }
 }
